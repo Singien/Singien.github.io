@@ -231,7 +231,7 @@ function deleteMealOnServer(mealID)
 
 function editMenuOnServer(data, menuID)
 {
-    fetch('hhttps://bretts-meal-planner.herokuapp.com/dinners/' + menuID, {
+    fetch('https://bretts-meal-planner.herokuapp.com/dinners/' + menuID, {
         // fetch options here
         method: "PUT",
         credentials: "include",//putt method
