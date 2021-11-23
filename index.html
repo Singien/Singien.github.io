@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What is for dinner?</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <div id = 'mainBody'>
+    <body>
+        <div id = "hs">
+            <div class = "login" id = "loginBar">
+                <button class = "AllButton" id = "barCreate-button">Create Profile</button>
+                <button class = "AllButton" id = "barLogin-button">Login</button>
+            </div>
+            <h1>What is for dinner?</h1>
+            
+        </div>
+        <div class = "row">
+            <div class = "column" id = 'c1' style="background-color: rgb(2, 89, 250);">
+                <h3>What would you like to have for dinner?</h3>
+                <label class = "day" for="day">Day of the week:</label>
+                   <input class = "day input" type="text" id="day-choice" name="day">
+                <label for="protein">Chicken, Beef, Seafood, other main dish:</label>
+                <input class = "protein input" type="text" id="protein-choice">
+                <label for="time">What is the main dish:</label>
+                <input class = "text input" type="text" id="time-choice">
+                <label for="side">What side to go with main dish:</label>
+                <input class = "side input" type="text" id="side-choice">
+                <label for="beverage">What beverage:</label>
+                <input class = "beverage input" type="text" id="beverage-choice">
+                <label for="dessert">What dessert:</label>
+                <input class = "dessert input" type="text" id="dessert-choice">
+                <button class = "AllButton" id="choice-button">Add Dinner</button>
+            </div><div class = "column" id = 'c2' style="background-color:rgb(2, 89, 250);">
+                <h4>Click on the dinner at the bottom to edit or delete.</h4>
+                <dl id="dinner-choice">
+                </dl>
+            </div>
+        </div>
+        <div>
+            <div class = "daysOfWeek" >
+                <div class = "sunday" id = "sunday"><p>Sunday</p></div> 
+                <div class = "monday" id = "monday"><p>Monday</p></div>
+                <div class = "tuesday" id = "tuesday"><p>Tuesday</p></div>
+                <div class = "wednesday" id = "wednesday"><p>Wednesday</p></div>
+                <div class = "thursday" id = "thursday"><p>Thursday</p></div>
+                <div class = "friday" id = "friday"><p>Friday</p></div>
+                <div class = "saturday" id = "saturday"><p>Saturday</p></div>
+                <div class = "Today" id = "Today"><p>Undecided Day</p></div>
+            </div>
+        </div>
+
+        
+
+        <script src="app.js"></script>
+    </body></div>
+</html>
