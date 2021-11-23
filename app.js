@@ -245,7 +245,7 @@ function editMenuOnServer(data, menuID)
 
 function createUserOnServer(data)
 {
-    fetch('hhttps://bretts-meal-planner.herokuapp.com/users', {
+    fetch('https://bretts-meal-planner.herokuapp.com/users', {
         method: "POST",
         credentials: "include",
         body: data,
